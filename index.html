@@ -1,11 +1,31 @@
 <!DOCTYPE html>
 <html>
-<head lang="en">
-    <meta charset="UTF-8">
-    <title>Hello!</title>
-</head>
-<body>
+  <head lang="en">
+    <meta charset="UTF-8" />
+    <title>Hire me!</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
 
-<h1>Hello!</h1>
-</body>
+  <body>
+    <div id="root" class="root">
+      <div class="search" id="search">
+        <form id="search-form" class="search__form">
+          <input
+            id="search-query"
+            class="search__query"
+            type="text"
+            placeholder="Search username..."
+            name="query"
+          />
+          <button id="search-button" class="search__button" type="submit">
+            Search
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <script src="logic.js"></script>
+    <script src="view.js"></script>
+    <script src="main.js"></script>
+  </body>
 </html>
